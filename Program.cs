@@ -31,7 +31,7 @@ namespace ConsoleApp1
                 {
                     for (int j = 2; j < i * 2 + 1; j++)
                     {
-                        fact += j;
+                        fact *= j;
                     }
                 }
                 answer += (Math.Pow(-1, i) * Math.Pow(x, 2 * i)) / fact;
