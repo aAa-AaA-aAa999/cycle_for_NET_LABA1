@@ -29,7 +29,7 @@ namespace ConsoleApp1
                 int fact = 1;
                 if (i != 0)
                 {
-                    for (int j = 2; j < i * 2 + 1; j++)
+                    for (int j = 1; j < i * 2 + 1; j++)
                     {
                         fact *= j;
                     }
